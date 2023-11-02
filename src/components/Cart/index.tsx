@@ -14,7 +14,7 @@ const Cart = () => {
   const dispatch = useDispatch()
 
   const closeCart = () => {
-    dispatch(close)
+    dispatch(close())
   }
 
   const removeItem = (id: number) => {

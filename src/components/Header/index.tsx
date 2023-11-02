@@ -14,7 +14,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const openCart = () => {
-    dispatch(open)
+    dispatch(open())
   }
 
   return (
