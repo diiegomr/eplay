@@ -1,4 +1,4 @@
-aimport Tag from '../Tag'
+import Tag from '../Tag'
 import * as S from './styles'
 
 type Props = {
