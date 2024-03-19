@@ -167,8 +167,7 @@ const Checkout = () => {
         <Card title="Muito obrigado">
           <>
             <p>
-              É com satisfação que informamos que recebemos seu pedido com
-              sucesso! <br />
+              Recebemos seu pedido com sucesso! <br />
               Abaixo estão os detalhes da sua compra: <br />
               Número do pedido: {data.orderId} <br />
               Forma de pagamento:{' '}
