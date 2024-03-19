@@ -203,7 +203,7 @@ const Checkout = () => {
             <>
               <S.Row>
                 <S.InputGroup>
-                  <label htmlFor="fullName">Nome completo</label>
+                  <label htmlFor="fullName">Nome</label>
                   <input
                     id="fullName"
                     type="text"
