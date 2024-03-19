@@ -56,8 +56,8 @@ const Checkout = () => {
         .email('E-mail inválido')
         .required('O campo é obrigatório'),
       cpf: Yup.string()
-        .min(14, 'O campo precisa ter 14 caracteres')
-        .max(15, 'O campo precisa ter 14 caracteres')
+        .min(14, 'O campo deve ter 14 caracteres')
+        .max(15, 'O campo deve ter 14 caracteres')
         .required('O campo é obrigatório'),
       deliveryEmail: Yup.string()
         .email('E-mail inválido')
